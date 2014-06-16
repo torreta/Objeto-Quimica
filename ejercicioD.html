@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicios | OA Propiedades Físicas de las Disoluciones</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel='stylesheet' type='text/css' href='css/main_style.css' />
+	<link rel="stylesheet" type="text/css" href="css/jQuizMe.css"/>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div>
+						<a href="index.html"><img src="img/banner portada.PNG" class="imgResp" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="submenu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-tabs nav-justified">
+							<li class=""><a href='index.html'>Inicio</a></li>
+							
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									Contenido<span class="caret"></span>
+								</a>
+								<ul class='wsite-menu dropdown-menu'>
+									<li >
+										<a href='tipos-de-disoluciones.html' >
+											<span class='wsite-menu-title'>Tipos de Disoluciones</span>
+										</a>
+									</li>
+									<li >
+										<a href='enfoque-molecular-del-proceso-de-disolucioacuten.html' >
+											<span class='wsite-menu-title'>Enfoque molecular del proceso de disolución </span>
+										</a>
+									</li>
+									<li >
+										<a href='unidades-de-concentracioacuten.html' >
+											<span class='wsite-menu-title'>Unidades de concentración</span>
+										</a>
+									</li>
+									<li >
+										<a href='efecto-de-la-temperatura-en-la-solubilidad.html' ><span class='wsite-menu-title'>Efecto de la temperatura en la solubilidad</span>
+										</a>
+									</li>
+									<li class="active">
+										<a href='propiedades-coligativas-de-las-disoluciones-de-no-electroacutelitos.html'><span class='wsite-menu-title'>Propiedades coligativas de las disoluciones de no electrólitos</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown active">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									Ejercicios<span class="caret"></span>
+								</a>
+								<ul class='wsite-menu dropdown-menu'>
+									<li >
+										<a href='ejercicioA.html' >
+											<span class='wsite-menu-title'>Tipos de Disoluciones</span>
+										</a>
+									</li>
+									<li  class="active">
+										<a href='ejercicioD.html'><span class='wsite-menu-title'>Propiedades coligativas</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									Simulaciones<span class="caret"></span>
+								</a>
+								<ul class='wsite-menu dropdown-menu'>
+									<li >
+										<a href='simulacion molaridad.html' >
+											<span class='wsite-menu-title'>Molaridad</span>
+										</a>
+									</li>
+									<li class="">
+										<a href='simulacion concentracion.html'>
+											<span class='wsite-menu-title'>Concentración</span>
+										</a>
+									</li>
+									<li >
+										<a href='simulacion propiedades.html' >
+											<span class='wsite-menu-title'>Propiedades Coligativas</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href='creditos.html'>Créditos</a></li>
+							<li >
+								<div>
+									<a href="javascript:cambiarLetra('12px')" data-toggle="tooltip" title="Poner letra pequeña" class= "chiquita"> A </a>					  
+									<a href="javascript:cambiarLetra('16px')"  class= "mediana" data-toggle="tooltip" title="Poner letra normal" > A </a>
+									<a href="javascript:cambiarLetra('20px')"  class= "grande"data-toggle="tooltip" title="Poner letra grande" > A </a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container vs  box-wrapper">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="paginas center-block">
+					<div id='wsite-content'>
+						<div class="row pag">
+							<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+								<h2 class="wsite-content-title" style="text-align:center;">Propiedades Coligativas</h2>
+								<div id="quizArea"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src='js/turn.js'></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jQuizMe-2.2.1.js"></script>
+<script src="js/esLang.js"></script>
+<script src="js/ejerciciosD.js"></script>
+<script type="text/javascript">
+$( function($){
+	var options = {
+		intro: "La idea de las siguientes preguntas es poner a prueba tus conocimientos sobre el tema, si tienes alguna duda puedes ir a la sección de contenidos.",
+		allRandom: true,
+		title: "Quiz: Propiedades Coligativas",
+		disableDelete:true,
+		disableHelp:true,
+		review: false
+
+	};
+
+	$("#quizArea").jQuizMe(quiz, options, esLang);
+});
+</script>
+</body>
+</html>
